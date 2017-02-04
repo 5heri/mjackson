@@ -26,5 +26,10 @@
   },
   "engines": {
     "node": ">=0.10.1"
+  },
+  "dependencies": {
+    "bourbon": "^4.3.0",
+    "bourbon-neat": "^1.8.0",
+    "neat": "^1.2.2"
   }
 }
