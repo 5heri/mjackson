@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-group :development, :test do
-  gem 'jekyll', '~> 3.1.2'
-  gem 'jekyll-sitemap', '~> 0.11.0'
+gemspec
+
+# Compass for the dummy app
+gem 'compass', require: false
+
+group :development do
+  gem 'byebug', platforms: [:mri_21, :mri_22], require: false
 end
