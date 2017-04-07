@@ -1,0 +1,16 @@
+//
+// Dropdowns
+// --------------------------------------------------
+
+.dropdown-menu {
+  font-family: "Proxima Nova Bold";
+}
+
+.open.dropdown > .btn-secondary.btn-default.dropdown-toggle {
+  background-color: transparent;
+  color: $white;
+}
+
+.dropdown > .dropdown-toggle:active:hover {
+  color: $white;
+}

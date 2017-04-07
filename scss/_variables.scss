@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "colors";
+
+// Points to the flame-prod S3 bucket
+$cloudfront_fonts_path: '//d32ajffse01guc.cloudfront.net/fonts';
+$cloudfront_font_version: 'v2.9.0';
+
+$bold-font-weight: 700;
+$light-font-weight: 100;
+$medium-font-weight: 500;
+$regular-font-weight: 400;
+$extra-bold-font-weight: 900;
+
+$font-family-base: 'Proxima Nova Regular', $font-family-sans-serif;
+
+//dropdown overrides
+$dropdown-bg: $snow;
+$dropdown-link-active-bg: $silver;
+$dropdown-link-color: $gunmetal;
+$dropdown-link-hover-bg: $glacier;

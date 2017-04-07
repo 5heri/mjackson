@@ -1,0 +1,18 @@
+// Found from google
+
+// https://github.com/magnetikonline/sassboilerplate/blob/master/fontface.scss
+
+@mixin font-face($family, $src, $style: normal, $weight: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$src}.eot'); // IE9 compat
+    src: url('#{$src}.eot?#iefix') format('embedded-opentype'), // IE8 and below
+      url('#{$src}.woff2') format('woff2'), // standards
+      url('#{$src}.woff') format('woff'), // standards
+      url('#{$src}.ttf') format('truetype'); // Safari, Android, iOS
+      // Don't need SVG Fonts anymore
+
+    font-style: $style;
+    font-weight: $weight;
+  }
+}

@@ -1,0 +1,76 @@
+// Blacks / Dark greys
+$black: rgb(0, 0, 0);
+$asphalt: rgb(20, 20, 20);
+$griptape: rgb(34, 34, 34);
+$tire: rgb(53, 53, 53);
+$gunmetal: rgb(102, 102, 102);
+
+// Greys / Whites
+$concrete: rgb(164, 165, 165);
+$silver: rgb(216, 216, 216);
+$glacier: rgb(243, 244, 244);
+$snow: rgb(249, 249, 249);
+$white: rgb(255, 255, 255);
+
+// Blues
+$babyblue: rgb(0, 159, 223); // #009FDF
+$pacific: rgb(3, 191, 254); // #03BFFE
+$atlantic: rgb(1, 127, 170); // #017FAA
+
+// Misc. colors
+$hardhat: rgb(245, 167, 0);
+$finishline: rgb(126, 211, 33);
+$blood: rgb(247, 64, 61);
+
+
+// Blacks / Dark greys
+.background-black{
+  background-color: $black;
+}
+.background-asphalt{
+  background-color: $asphalt;
+}
+.background-griptape{
+  background-color: $griptape;
+}
+.background-tire{
+  background-color: $tire;
+}
+.background-gunmetal{
+  background-color: $gunmetal;
+}
+
+// Greys / Whites
+.background-concrete{
+  background-color: $concrete;
+}
+.background-silver{
+  background-color: $silver;
+}
+.background-glacier{
+  background-color: $glacier;
+}
+.background-snow{
+  background-color: $snow;
+}
+.background-white{
+  background-color: $white;
+}
+
+.background-pacific{
+  background-color: $pacific;
+}
+.background-atlantic{
+  background-color: $atlantic;
+}
+
+// Misc. colors
+.background-hardhat{
+  background-color: $hardhat;
+}
+.background-finishline{
+  background-color: $finishline;
+}
+.background-blood{
+  background-color: $blood;
+}
