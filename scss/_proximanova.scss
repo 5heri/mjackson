@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'mixins/font_face';
+
+@include font-face('ProximaNova', 'fonts/proximanova-extrabold-webfont', normal, $extra-bold-font-weight);
+@include font-face('ProximaNova', 'fonts/proximanova-bold-webfont', normal, $bold-font-weight);
+@include font-face('ProximaNova', 'fonts/proximanova-light-webfont', normal, $light-font-weight);
+@include font-face('ProximaNova', 'fonts/proximanova-regular-webfont', normal, $regular-font-weight);
+
+// Should be removed in favor of using font-weight above
+@include font-face('Proxima Nova Extra Bold', 'fonts/proximanova-extrabold-webfont');
+@include font-face('Proxima Nova Bold', 'fonts/proximanova-bold-webfont');
+@include font-face('Proxima Nova Light', 'fonts/proximanova-light-webfont');
+@include font-face('Proxima Nova Regular', 'fonts/proximanova-regular-webfont');

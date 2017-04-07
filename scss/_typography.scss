@@ -1,0 +1,162 @@
+$browser-context: 14; // Default
+
+@function px-em($pixels, $context: $browser-context) {
+  @return ($pixels / $context) * 1em;
+}
+
+// Font definitions
+@import "pfdin";
+@import "proximanova";
+
+// PF DinText
+$pfDinTextProBold: 'PF DinText Pro Bold';
+$pfDinTextProLight: 'PF DinText Pro Light';
+
+// Proxmia Nova
+$proximaNovaRegular: 'Proxima Nova Regular';
+$proximaNovaBold: 'Proxima Nova Bold';
+$proximaNovaExtraBold: 'Proxima Nova Extra Bold';
+
+// Headlines
+$headlineSize1: px-em(100);
+$headlineSize2: px-em(65);
+$headlineSize3: px-em(30);
+$headlineSize4: px-em(24);
+$headlineSize5: px-em(12);
+$headlineSize6: px-em(24);
+$headlineSize7: px-em(18);
+
+// Copy
+$copySize1: px-em(16);
+$copySize2: px-em(14);
+$copySize3: px-em(13);
+$copySize4: px-em(12);
+
+// Line heights
+$lineHeight30: px-em(30);
+$lineHeight11: px-em(11);
+
+// Letter spacing
+$letterSpacing10: px-em(10);
+
+// Text
+$uppercase: uppercase;
+
+// Headlines
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  text-transform: $uppercase;
+}
+h1, .h1,
+h3, .h3 {
+ font-family: $pfDinTextProBold;
+}
+h2, .h2 {
+ font-family: $proximaNovaExtraBold;
+}
+h1, .h1 {
+  font-size:$headlineSize1;
+}
+h2, .h2 {
+  font-size: $headlineSize2;
+}
+h3, .h3 {
+  font-size: $headlineSize3;
+}
+h4, .h4,
+h5, .h5 {
+ font-family: $pfDinTextProLight;
+ letter-spacing: $letterSpacing10;
+}
+h4, .h4 {
+  font-size: $headlineSize4;
+}
+h5, .h5 {
+  font-size: $headlineSize5;
+}
+h6, .h6 {
+ font-family: $proximaNovaBold;
+ font-size: $headlineSize6;
+}
+h7, .h7 {
+  font-family: $proximaNovaRegular;
+  font-size: $headlineSize7;
+  line-height: $lineHeight30;
+}
+
+// Body copy
+.copy1,
+.copy2,
+.copy3,
+.copy4 {
+ font-family: $proximaNovaRegular;
+}
+.copy1 {
+  font-size: $copySize1;
+  line-height: $lineHeight11;
+}
+.copy2 {
+  font-size: $copySize2;
+}
+.copy3 {
+  font-size: $copySize3;
+}
+.copy4 {
+  font-size: $copySize4;
+}
+
+// Blacks / Dark greys
+.black {
+  color: $black;
+}
+.asphalt {
+  color: $asphalt;
+}
+.griptape {
+  color: $griptape;
+}
+.tire {
+  color: $tire;
+}
+.gunmetal {
+  color: $gunmetal;
+}
+
+// Greys / Whites
+.concrete {
+  color: $concrete;
+}
+.silver {
+  color: $silver;
+}
+.glacier {
+  color: $glacier;
+}
+.snow {
+  color: $snow;
+}
+.white {
+  color: $white;
+}
+
+.pacific {
+  color: $pacific;
+}
+.atlantic {
+  color: $atlantic;
+}
+
+// Misc. colors
+.hardhat {
+  color: $hardhat;
+}
+.finishline {
+  color: $finishline;
+}
+.blood {
+  color: $blood;
+}
